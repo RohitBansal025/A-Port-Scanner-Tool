@@ -4,7 +4,7 @@ A simple and efficient port scanner written in Python. This tool scans a target 
 
 ## Description
 
-Port Scanner is a tool designed to help you quickly identify open ports on a target machine. It scans the most common ports first, providing immediate feedback on the most likely points of entry. 
+Port Scanner is a tool designed to help you quickly identify open ports on a target machine or site. It scans the most common ports first, providing immediate feedback on the most likely points of entry. 
 
 ## Table of Contents
 
@@ -31,10 +31,12 @@ Port Scanner is a tool designed to help you quickly identify open ports on a tar
 ## Usage:
 
 1.  **Open you Terminal**
-2.  **Run the script with the target IP address as an argument**:
-        python3 scanner.py <target_ip>
-        for example: python3 scanner.py 192.168.1.1
-3.  **During the scan, you will be prompted to enter the range of ports you want to scan:**
+2.  **Run the script with the target domain name or IP address as an argument**:
+        python3 scanner.py <target_ip or target website>
+        for example: python3 Scanner.py 192.168.1.1
+                               or like
+                     python3 Scanner.py google.com
+4.  **During the scan, you will be prompted to enter the range of ports you want to scan:**
         Enter start port for full scan: <1000>
         Enter end port for full scan: <2000>
 ## Features
